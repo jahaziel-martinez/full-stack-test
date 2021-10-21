@@ -1,0 +1,11 @@
+# Package directories
+node_modules
+
+# Mac OS directories
+.DS_Store
+
+# Visual Studio directories
+.vscode
+
+# Build / Generate output
+dist
