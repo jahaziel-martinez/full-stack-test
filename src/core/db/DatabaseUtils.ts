@@ -4,7 +4,7 @@ export default class DatabaseUtils {
   private static db: sqlite3.Database;
 
   private static connect(): void {
-    DatabaseUtils.db = new sqlite3.Database("src/db/full-stack-test.db", (error) => {
+    DatabaseUtils.db = new sqlite3.Database("src/core/db/full-stack-test.db", (error) => {
       if (error) {
         console.error("Error connecting to full-stack-test DB.", error);
         throw error;
