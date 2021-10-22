@@ -2,7 +2,7 @@
 
 import sqlite3 from "sqlite3";
 
-const db = new sqlite3.Database("src/db/full-stack-test.db", (err) => {
+const db = new sqlite3.Database("src/core/db/full-stack-test.db", (err) => {
   if (err) {
     return console.error("Error opening database.", err.message);
   }

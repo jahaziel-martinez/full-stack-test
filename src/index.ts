@@ -13,7 +13,7 @@ app
   .route("/api/v1")
   .get((req, res) => {
     // Connecting to DB.
-    const db = new sqlite3.Database("src/db/full-stack-test.db", (err) => {
+    const db = new sqlite3.Database("src/core/db/full-stack-test.db", (err) => {
       if (err) {
         console.error("Error connecting to full-stack-test DB.", err.message);
         res.status(500).send();
@@ -31,7 +31,7 @@ app
   })
   .post((req, res) => {
     // Connecting to DB.
-    const db = new sqlite3.Database("src/db/full-stack-test.db", (err) => {
+    const db = new sqlite3.Database("src/core/db/full-stack-test.db", (err) => {
       if (err) {
         console.error("Error connecting to full-stack-test DB.", err.message);
         res.status(500).send();
