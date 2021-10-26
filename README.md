@@ -2,11 +2,20 @@
 
 ## Tasks
 
-* Create endpoint to obtain all users.
-  * Use pagination (no required).
+### Backend
+
+* Get all companies.
 * Create endpoint to obtain users by company.
-  * e.g. All users from company id 1.
-  * Use pagination (no required).
+* * e.g. All users from company id 1.
+  * Use pagination (optional).
+* Add a new user (optional).
+* Update a specific user (optional).
+
+### Frontend
+
+* Drop-down list to display all companies (calling API).
+* Get users by company when user change company value.
+* Create a component to display a card with each user information (user ID, user name, user type and company name).
 
 ## Database structure
 
